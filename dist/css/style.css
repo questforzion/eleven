@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "deathe";
+  src: url(/dist/fonts/Deathe-Maach.ttf);
+}
+
+p {
+  font-family: "deathe";
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */
