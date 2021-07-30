@@ -3,9 +3,36 @@
   src: url(../fonts/Deathe-Maach.ttf);
 }
 
-p {
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
   font-family: Deathe;
-  font-size: 30px;
-  color: red;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  border: 1px solid black;
+  height: 1000px;
+  background: url(../img/goldcutv2.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-size: clamp(100px, 180%, 1000px);
+}
+
+img {
+  height: 40px;
 }
 /*# sourceMappingURL=style.css.map */
