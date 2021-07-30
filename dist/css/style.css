@@ -30,9 +30,7 @@ body {
   background: url(../img/goldcutv2.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-attachment: fixed;
   background-size: clamp(100px, 180%, 1000px);
-  z-index: -100;
 }
 
 section {
