@@ -26,7 +26,6 @@ body {
   border: 1px solid black;
   height: 100%;
   width: 100%;
-  position: fixed;
   background: url(../img/goldcutv2.png);
   background-repeat: no-repeat;
   background-position: bottom center;
